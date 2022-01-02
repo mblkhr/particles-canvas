@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Canvas Particles Rendering</title>
+  <script src="./particles.js" defer></script>
+</head>
+<body>
+  <canvas id="particleCanvas">
+  </canvas>
+
+  <div class="fullscreen">
+    <button class="showControls hidden"> Show Controls </button>
+    <div class="wrapper centered">
+      <div class="controls">
+        <button id="playAnim">Play Animation</button>
+        <button id="pauseAnim">Pause Animation</button>
+        <button id="hideControls">Hide Controls</button>
+        <label for="Speed">Animation Speed</label>
+        <input type="range" min="0" max="20" name="Speed" id="speedAnim">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
