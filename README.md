@@ -8,4 +8,7 @@ Simple particle simulation using the HTML canvas and its 2d context. Experimenti
 | Control    | Effect                           |
 |------------|----------------------------------|
 | `buttons`  | On screen buttons do as they say |
-| `spacebar` | Spawn and reset the particles    |
+| `keypress` | Spawn and reset the particles    |
+
+### Live instance
+You can view the [**live project**](https://mblkhr.github.io/particles-canvas/) which is hosted on github [pages](https://docs.github.com/en/pages).
